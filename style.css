@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/bg.jpg);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #00000090;
+    user-select: none;
+}
+
+.title {
+    font-size: calc(20px + 3vw);
+}
+
+.title p {
+    font-size: calc(20px + 1vw);
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.countdown h1 {
+    padding: 10px 30px;
+    font-size: calc(20px + 7vw);   
+    text-shadow: 0 0 10px whitesmoke;
+}
+
+.button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 0 15px whitesmoke;
+}
